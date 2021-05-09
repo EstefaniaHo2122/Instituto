@@ -30,3 +30,20 @@ nom_materia nvarchar (30),
 grado nvarchar (30),
 activo bit 
 constraint ijkl primary key (cod_materia))
+
+-- procedimientos almacenados 
+create procedure actualizar_profesor
+@id_profesor nvarchar (10),
+@nombre nvarchar (30),
+@apellido nvarchar (30),
+@celular nvarchar(10),
+@edad nvarchar(5),
+@direccion nvarchar (20),
+@barrrio nvarchar (30),
+@curso nvarchar (40),
+@activo bit 
+as
+insert into profesor(id_profesor, nombre, apellido, celular, edad,direccion, barrrio, curso, activo) 
+values (@id_profesor,@nombre,@apellido,@celular,@edad,@direccion,@barrrio,@curso ,@activo)
+
+
