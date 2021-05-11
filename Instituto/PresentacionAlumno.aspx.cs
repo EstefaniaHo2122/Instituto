@@ -101,5 +101,10 @@ namespace Instituto
             lblbarrio.Text = "";
             lblrespuesta.Text = "";
         }
+
+        protected void lblidestudiante_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

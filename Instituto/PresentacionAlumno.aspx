@@ -61,7 +61,7 @@
                         <asp:Label ID="txtidestudiante" runat="server" Font-Bold="True" Font-Italic="False" Font-Names="Bahnschrift Condensed" Font-Size="Large" Font-Strikeout="False" Font-Underline="False" ForeColor="White" Text="ID ESTUDIANTE:"></asp:Label>
                     </td>
                     <td class="auto-style6">
-                        <asp:TextBox ID="lblidestudiante" runat="server" Font-Bold="True" Font-Names="Bahnschrift Light Condensed"></asp:TextBox>
+                        <asp:TextBox ID="lblidestudiante" runat="server" Font-Bold="True" Font-Names="Bahnschrift Light Condensed" OnTextChanged="lblidestudiante_TextChanged" Height="22px"></asp:TextBox>
                     </td>
                     <td class="auto-style6">
                         <asp:Label ID="txtidestudiante0" runat="server" Font-Bold="True" Font-Italic="False" Font-Names="Bahnschrift Condensed" Font-Size="Large" Font-Strikeout="False" Font-Underline="False" ForeColor="White" Text="IR A TABLA PROFESOR:"></asp:Label>

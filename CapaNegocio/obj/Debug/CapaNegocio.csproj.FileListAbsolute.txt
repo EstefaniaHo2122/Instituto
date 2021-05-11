@@ -9,3 +9,14 @@ C:\instituto\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
 C:\instituto\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\instituto\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\instituto\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\USUARIO\Desktop\proyecto\Instituto\CapaNegocio\obj\Debug\CapaNegocio.pdb

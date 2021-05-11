@@ -1,3 +1,4 @@
+
 create database Instituto 
 use Instituto
 create table alumno(
@@ -32,7 +33,7 @@ activo bit
 constraint ijkl primary key (cod_materia))
 
 -- procedimientos almacenados 
-create procedure actualizar_profesor
+create procedure guardar_profesor
 @id_profesor nvarchar (10),
 @nombre nvarchar (30),
 @apellido nvarchar (30),
@@ -46,4 +47,17 @@ as
 insert into profesor(id_profesor, nombre, apellido, celular, edad,direccion, barrrio, curso, activo) 
 values (@id_profesor,@nombre,@apellido,@celular,@edad,@direccion,@barrrio,@curso ,@activo)
 
+create procedure Anular_profesor
+@id_profesor nvarchar(10)
+as
+DELETE profesor where @id_profesor=@id_profesor
+
+create procedure Consultar_profesor
+@id_profesor nvarchar(10)
+as
+begin
+select id_profesor,nombre,apellido,celular,edad,direccion,barrrio, curso 
+from profesor
+where id_profesor=@id_profesor
+end
 
